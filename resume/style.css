@@ -1,3 +1,4 @@
+/*styles for my resume*/
 
 
 BODY {
@@ -6,6 +7,7 @@ BODY {
   color:#444;
 }
 
+/*banner name at top*/
 H1 {
   font-size:3em;
   color:#33485e;
@@ -13,11 +15,13 @@ H1 {
   text-align: center;
 }
 
+/*profession at the top left*/
 strong {
   font-size:1.5em;
   color:#33485e;
 }
 
+/*section titles above lists*/
 H2 {
   font-size:1.5em;
   text-transform:uppercase;
@@ -26,22 +30,26 @@ H2 {
   font-weight:400;
 }
 
+/*job titles*/
 H3 {
   font-weight:600;
   font-size:1.5em;
 }
 
+/*location*/
 H4{
   font-weight:400;
   font-size:1.5em;
 }
 
+/*dates*/
 H5{
   font-weight:400;
   font-size:1em;
   font-style:italic;
 }
 
+/*list size*/
 li{
   font-size:1em;
 }
