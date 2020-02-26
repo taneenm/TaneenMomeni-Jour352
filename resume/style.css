@@ -7,12 +7,23 @@ BODY {
   color:#444;
 }
 
+#container {
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+}
+
+
 /*banner name at top*/
-H1 {
+#name {
   font-size:3em;
   color:#33485e;
   text-transform: uppercase;
   text-align: center;
+  border-bottom:1px solid #33485e;
+  width:60%;
+  min-width:300px;
+  margin:0 auto;
 }
 
 /*profession at the top left*/
@@ -22,31 +33,41 @@ strong {
 }
 
 /*section titles above lists*/
-H2 {
+.sectionheader {
   font-size:1.5em;
   text-transform:uppercase;
   background-color:#33485e;
   color:white;
   font-weight:400;
+  margin-bottom:10px;
+  margin-top:20px;
+  margin-right:0;
+  margin-left:0;
+  width:70%;
+  min-width:300px;
 }
 
 /*job titles*/
-H3 {
+.jobtitle {
   font-weight:600;
   font-size:1.5em;
 }
 
 /*location*/
-H4{
+.organization{
   font-weight:400;
-  font-size:1.5em;
+  font-size:1.25em;
 }
 
 /*dates*/
-H5{
+.date{
   font-weight:400;
   font-size:1em;
   font-style:italic;
+  margin-top:2px;
+  margin-bottom:0;
+  margin-left:0;
+  margin-right:0;
 }
 
 /*list size*/
