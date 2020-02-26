@@ -27,9 +27,12 @@ BODY {
 }
 
 /*profession at the top left*/
-strong {
+#title {
   font-size:1.5em;
   color:#33485e;
+  font-weight:600px;
+  text-align:center;
+  margin-top:20px 0 0 0;
 }
 
 /*section titles above lists*/
@@ -70,7 +73,34 @@ strong {
   margin-right:0;
 }
 
+.description{
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-right:0;
+  margin-left:0;
+}
+.menu{
+  margin:0 0 0 0;
+  padding:0 0 0 0;
+  text-align:center;
+}
 /*list size*/
-li{
+.list{
   font-size:1em;
+  display:inline;
+}
+
+#degrees{
+  margin-top:5px 0 0 0
+}
+
+#do{
+  margin-top:5px 0 0 0
+}
+
+.top{
+  width:60%;
+  min-width:300px;
+  margin:0 auto;
+  margin-bottom:30px;
 }
