@@ -1,0 +1,32 @@
+#content{
+  width:900px;
+  margin: 0 auto;
+}
+
+#byline{
+  font-family:Helvetica, sans-serif;
+  font-size:14px;
+  font-style:italic;
+}
+
+H1{
+  font-family:Helvetica, sans-serif;
+}
+
+p{
+  font-family:Georgia, serif;
+  font-size:13px;
+}
+
+blockquote{
+  font:20px/24px normal helvetica, sans-serif;
+  font-weight:bold;
+  margin-top:15px;
+  margin-bottom:15px;
+  color:maroon;
+  margin-left: 50px;
+}
+
+h2{
+  font-family:helvetica, sans-serif;
+}
