@@ -1,0 +1,21 @@
+#container{
+  width:900px;
+  margin: 0 auto;
+}
+
+.image{
+  width:900px;
+  height:600px;
+}
+
+.caption{
+  font-size:15px;
+  font-weight:lighter;
+}
+
+
+.footer{
+  background-color:Black;
+  color:white;
+  width:900px;
+}
