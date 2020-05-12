@@ -1,0 +1,171 @@
+#container{
+  width:900px;
+  margin: 0 auto;
+}
+
+/*larger images*/
+
+.image{
+  margin-left:auto;
+  margin-right:auto;
+  width:800px;
+  height:500px;
+}
+
+.caption{
+  text-align:left;
+  font-size:15px;
+  font-weight:lighter;
+  padding-top:10px;
+  padding-bottom:20px;
+  width:800px;
+}
+
+/*smaller images*/
+
+.image2{
+  margin-left:auto;
+  margin-right:auto;
+  width:450px;
+  height:300px;
+  padding-top:20px;
+}
+
+.caption2{
+  text-align:left;
+  font-size:15px;
+  font-weight:lighter;
+  padding-bottom:20px;
+  width:900px;
+}
+
+.footer{
+  background-color:Black;
+  color:white;
+  width:900px;
+}
+
+/*text within the navbar*/
+.nav-logo{
+  color:#fff;
+  margin:0 auto;
+  font-weight:800;
+  text-transform:uppercase;
+}
+
+/*color of the navbar*/
+.navbar-custom{
+  background-color:#570000;
+}
+
+/*hero area*/
+.hero-container{
+  position:relative;
+  text-align:center;
+  color:#fff;
+}
+
+.hero-image{
+  width:100%;
+  height:680px;
+  padding-bottom:10px;
+}
+
+.overlay{
+  position:absolute;
+  top:30%;
+  width:100%;
+  background-color:#9B0C0C;
+  opacity:.8;
+}
+
+.hero-head{
+  font-family:"Prata", serif;
+  font-size:6em;
+  color:#fff;
+  margin:0 auto;
+  padding-bottom:10px;
+}
+
+.hero-sub{
+  font-family:"Lato", sans-serif;
+  font-size:.25em;
+}
+
+.hero-caption{
+  text-align:center;
+  font-size:15px;
+  font-weight:lighter;
+  padding-bottom:30px;
+}
+
+.graph{
+  padding-bottom:20px;
+  padding-top:20px;
+}
+
+.map{
+  padding-bottom:20px;
+}
+
+/*blockquote*/
+
+
+blockquote{
+  text-align: center;
+  font-size:1.6em;
+  font-weight:700;
+  color:#FF5733;
+}
+
+blockquote.drop-cap:first-letter {
+  font-size:2em;
+  font-weight:650px;
+}
+
+p.bq-attribution{
+  text-align:center;
+  font-size:1.3em;
+  font-weight:500px;
+  padding-bottom:10px;
+  color:#000000;
+}
+
+h2{
+  font-family:"Prata", serif;
+  font-weight:600;
+  letter-spacing:1.5px;
+}
+
+p{
+  font-family:"Lato", sans-serif;
+  line-height:1.8em;
+}
+
+h4{
+  font-weight:700;
+  color:#9B0C0C;
+  padding-bottom:10px;
+}
+
+
+/*media queries*/
+
+@media(max-width:670px){
+p{
+  padding-left:20px;
+  padding-right:10px;
+}
+
+.chapter-head{
+  font-size:1.25em;
+}
+
+.head{
+  font-size:2em;
+}
+
+.hero-head{
+  font-size:1.5em;
+}
+}
