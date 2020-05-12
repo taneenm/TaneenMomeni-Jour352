@@ -40,9 +40,10 @@
 }
 
 .footer{
-  background-color:Black;
-  color:white;
-  width:900px;
+  background-color:#570000;
+  color:#fff;
+  width:100%;
+  height:113px
 }
 
 /*text within the navbar*/
@@ -108,6 +109,42 @@
   padding-bottom:20px;
 }
 
+/*sidebar & info inside*/
+
+.sidebar{
+  border-style:double;
+  border-color:#9B0C0C;
+  border-width:10px;
+  padding-right:20px;
+  padding-left:20px;
+  padding-top:20px;
+  width:700px;
+  margin-left:10%;
+}
+
+h5{
+  font-size:1.3em;
+  font-weight:700;
+  color:#FF5733;
+  padding-bottom:10px;
+  text-align:center;
+  text-transform:uppercase;
+}
+
+a:link{
+  color:#9B0C0C;
+  text-decoration: underline;
+}
+
+a:visited{
+  color:#000000;
+}
+
+a:hover{
+  color:#FF5733;
+}
+
+
 /*blockquote*/
 
 
@@ -142,6 +179,12 @@ p{
   line-height:1.8em;
 }
 
+li{
+  font-family:"Lato", sans-serif;
+  line-height:1.8em;
+  margin:0.5em;
+}
+
 h4{
   font-weight:700;
   color:#9B0C0C;
@@ -149,12 +192,15 @@ h4{
 }
 
 
+
 /*media queries*/
 
-@media(max-width:670px){
+@media screen and (max-width:670px){
+
 p{
-  padding-left:20px;
-  padding-right:10px;
+  width:100%;
+  padding-left:30px;
+  padding-right:30px;
 }
 
 .chapter-head{
@@ -168,4 +214,5 @@ p{
 .hero-head{
   font-size:1.5em;
 }
+
 }
